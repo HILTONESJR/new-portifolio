@@ -1,14 +1,10 @@
-article {
-    background: linear-gradient(55deg, #000000, #050116, #10047a, #0026fd);
-    width: 100%;
-    
-}
 .formacoes {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    margin-top: 5%;
 }
 .formacao-text {
     display: flex;
@@ -30,6 +26,7 @@ article {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    flex-grow: 1;
     margin-bottom: 5rem;
 }
 .formacao-img-text img {

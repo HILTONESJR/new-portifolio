@@ -1,5 +1,7 @@
-section {
-    background: linear-gradient(90deg, #000000, #000000, #10023d, #160d97);
+.projetos-experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .projeto-text {
     width: 100%;
@@ -11,6 +13,7 @@ section {
 .projeto-item1 {
     display: flex;
     justify-content: center;
+    flex-grow: 1;
     gap: 10rem;
 }
 .projeto-texto1 {
@@ -61,6 +64,7 @@ section {
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+
     
 }
 .projetos-link {
@@ -68,6 +72,21 @@ section {
     flex-direction: row;
     text-decoration: none;
     gap: 20px;
+}
+.projetos-link a {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0.5px solid white;
+    background-color: rgb(56, 5, 238, 0.2);
+}
+.projetos-link a:hover {
+    background-color: rgba(111, 122, 182, 0.767);
+}
+.projetos-link a:active {
+    position: relative;
+    top: 1px;
 }
 .projeto-img img {
     margin-top: 5rem;

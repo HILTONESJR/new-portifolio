@@ -16,6 +16,23 @@ header {
     gap: 2rem;
     list-style-type: none;
 }
+.link-nav li:nth-child(6){
+    margin-top: -10px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgba(97, 91, 121, 0.5);
+}
+.link-nav li:nth-child(6):hover {
+    margin-top: -10px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    background-color: rgba(236, 1, 1, 0.705);
+}
+.link-nav ul:active {
+    position: relative;
+    top: 1px;
+}
 .link-nav a {
     text-decoration: none;
     color: white;
