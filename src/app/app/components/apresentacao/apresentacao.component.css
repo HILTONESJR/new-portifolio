@@ -1,11 +1,21 @@
+@media screen (max-width: 480px) {
+  .apresentacao {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+  
+}
 .apresentacao {
   margin-top: -5px;
   display: flex;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  
+  gap: 10px; 
 }
 .text-apresentacao {
   display: flex;
